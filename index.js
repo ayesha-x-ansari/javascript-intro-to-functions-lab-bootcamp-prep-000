@@ -23,21 +23,16 @@ function sayHiToGrandma(string) {
   var iloveyou  =  'I love you, Grandma.'
 
  if (string == lowercase)
- {
-   string = "I can\'t hear you!"
-  return string
-}
-
-
-if (string == uppercase)
-{
-   string = "YES INDEED!"
-   return string
-}
-
-if (string == iloveyou)
-{
-  string = "I love you, too."
- return string
-}
+  {
+     string = "I can\'t hear you!"
+     return string
+  }  else if (string == uppercase)
+  {
+     string = "YES INDEED!"
+     return string
+  }   else if (string == iloveyou)
+  {
+    string = "I love you, too."
+    return string
+  }  else {}
 }
